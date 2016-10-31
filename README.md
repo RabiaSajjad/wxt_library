@@ -1,8 +1,8 @@
 WxT Library
 ===========
 
-This module leverages the native Drupal library system to load WxT relevant
-assets.
+This module leverages the native Drupal library system to load the
+[WxT jQuery Framework's][wet_boew] relevant assets.
 
 ## Installation
 
@@ -12,15 +12,9 @@ provided as an additional method for those who do not wish to have the full
 weight of a distribution and its required dependencies.
 ### StandAlone Requirements
 
-`Standalone` Install: [WxT Library][wxt_library] only requires the
-[Bootstrap][bootstrap] base theme and the [WxT Library][wxt_library] module
-at a minimum to function correctly.
-
-You can easily retrieve these dependencies by running `composer install` which
-will simply retrieve the following:
-
-- [Bootstrap][bootstrap] (8.x-3.0+)
-- [WxT Library][wxt_library] (8.x-1.x)
+`Standalone` Install: WxT Library downloads the
+[WxT jQuery Framework's][wet_boew] packaged bootstrap libraries that
+[WxT Bootstrap][wxt_bootstrap] expects.
 
 ### Distribution Requirements
 
